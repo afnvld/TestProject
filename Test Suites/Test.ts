@@ -21,5 +21,10 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Dev TC</testCaseId>
+
+      <guid>11e0f421-bea5-457e-b361-aec86199f1d4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TestTC</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
