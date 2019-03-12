@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test" time="10" tests="1" failures="0" errors="0">
+   <testsuite name="Test" tests="1" failures="0" errors="0" time="10" timestamp="2019-03-12 13:08:52" hostname="xbm94901 - PF13QZT6.abcsupply.com" id="Test Suites/Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\xbm94901\\Katalon Studio\\TestProject\\Reports\\Test\\20190312_130849"/>
+         <property name="logFiles" value="C:\\Users\\xbm94901\\Katalon Studio\\TestProject\\Reports\\Test\\20190312_130849\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="xbm94901 - PF13QZT6.abcsupply.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.0.1"/>
+         <property name="browser" value="Chrome 72.0.3626.121"/>
+         <property name="hostAddress" value="10.14.0.71"/>
+         <property name="sessionId" value="524665ffb1db8ae264bed8763bbb6ce9"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Delete User/Delete User" classname="Test Cases/Delete User/Delete User" status="PASSED">
+         <system-out><![CDATA[2019-03-12 13:08:53 - [TEST_CASE][PASSED] - Test Cases/Delete User/Delete User: Test Cases/Delete User/Delete User
+
+2019-03-12 13:08:53 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/'
+
+2019-03-12 13:08:53 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/'
+
+2019-03-12 13:08:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-12 13:08:53 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-03-12 13:08:58 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/'
+
+2019-03-12 13:08:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/Successfull login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Successfull login' successfully
+
+2019-03-12 13:08:58 - [TEST_CASE][PASSED] - Test Cases/Login/Successfull login: Test Cases/Login/Successfull login
+
+2019-03-12 13:08:58 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login_Page/username_input"), username): Keys 'Admin' sent to object: 'Object Repository/Login_Page/username_input'
+
+2019-03-12 13:08:59 - [MESSAGE][PASSED] - Keys 'Admin' sent to object: 'Object Repository/Login_Page/username_input'
+
+2019-03-12 13:08:59 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login_Page/password_input"), password): Keys 'admin123' sent to object: 'Object Repository/Login_Page/password_input'
+
+2019-03-12 13:08:59 - [MESSAGE][PASSED] - Keys 'admin123' sent to object: 'Object Repository/Login_Page/password_input'
+
+2019-03-12 13:08:59 - [TEST_STEP][PASSED] - click(findTestObject("Login_Page/signin_button")): Object: 'Object Repository/Login_Page/signin_button' is clicked on
+
+2019-03-12 13:09:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/signin_button' is clicked on
+
+2019-03-12 13:09:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Successfull login' successfully
+
+2019-03-12 13:09:01 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Home_Page/admin_link")): Object: 'Object Repository/Home_Page/admin_link' is hovered
+
+2019-03-12 13:09:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Home_Page/admin_link' is hovered
+
+2019-03-12 13:09:01 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Home_Page/job_link")): Object: 'Object Repository/Home_Page/job_link' is hovered
+
+2019-03-12 13:09:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Home_Page/job_link' is hovered
+
+2019-03-12 13:09:01 - [TEST_STEP][PASSED] - click(findTestObject("Home_Page/jobTitles_link")): Object: 'Object Repository/Home_Page/jobTitles_link' is clicked on
+
+2019-03-12 13:09:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Home_Page/jobTitles_link' is clicked on
+
+2019-03-12 13:09:02 - [TEST_STEP][PASSED] - click(findTestObject("Home_Page/job_checkbox")): Object: 'Object Repository/Home_Page/job_checkbox' is clicked on
+
+2019-03-12 13:09:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Home_Page/job_checkbox' is clicked on
+
+2019-03-12 13:09:02 - [TEST_STEP][PASSED] - click(findTestObject("Home_Page/deleteJob_button")): Object: 'Object Repository/Home_Page/deleteJob_button' is clicked on
+
+2019-03-12 13:09:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Home_Page/deleteJob_button' is clicked on
+
+2019-03-12 13:09:02 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2019-03-12 13:09:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-03-12 13:09:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-12 13:08:52 - [TEST_SUITE][PASSED] - Test: Test Cases/Delete User/Delete User]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

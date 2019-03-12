@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test,Chrome 72.0.3626.121,,2019-03-12 13:08:52,2019-03-12 13:09:03,10.703s,PASSED
+,,,,,,
+Test Cases/Delete User/Delete User,Chrome 72.0.3626.121,,2019-03-12 13:08:53,2019-03-12 13:09:03,10.186s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 72.0.3626.121,,2019-03-12 13:08:53,2019-03-12 13:08:58,5.055s,PASSED
+"callTestCase(findTestCase(""Login/Successfull login""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.121,,2019-03-12 13:08:58,2019-03-12 13:09:01,2.514s,PASSED
+"mouseOver(findTestObject(""Home_Page/admin_link""))",Chrome 72.0.3626.121,,2019-03-12 13:09:01,2019-03-12 13:09:01,0.528s,PASSED
+"mouseOver(findTestObject(""Home_Page/job_link""))",Chrome 72.0.3626.121,,2019-03-12 13:09:01,2019-03-12 13:09:01,0.088s,PASSED
+"click(findTestObject(""Home_Page/jobTitles_link""))",Chrome 72.0.3626.121,,2019-03-12 13:09:01,2019-03-12 13:09:02,0.479s,PASSED
+"click(findTestObject(""Home_Page/job_checkbox""))",Chrome 72.0.3626.121,,2019-03-12 13:09:02,2019-03-12 13:09:02,0.195s,PASSED
+"click(findTestObject(""Home_Page/deleteJob_button""))",Chrome 72.0.3626.121,,2019-03-12 13:09:02,2019-03-12 13:09:02,0.141s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 72.0.3626.121,,2019-03-12 13:09:02,2019-03-12 13:09:03,0.833s,PASSED
