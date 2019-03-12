@@ -16,4 +16,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Delete User/Delete User</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>52697837-53de-4aa0-8d95-f04a042b7918</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Dev TC</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
